@@ -1,5 +1,8 @@
 platform :ios, '10.0'
 
+use_frameworks!
+inhibit_all_warnings!
+
 # The target name is most likely the name of your project.
 target 'rnrollbarrepro' do
 

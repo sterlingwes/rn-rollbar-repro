@@ -1,0 +1,6 @@
+framework module RollbarReactNative {
+  umbrella header "RollbarReactNative-umbrella.h"
+
+  export *
+  module * { export * }
+}

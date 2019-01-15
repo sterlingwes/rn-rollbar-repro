@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "F3CD28E0D058CD3A7F1A2C1091C29FA1"
+               BlueprintIdentifier = "3C1996CAB1EB8CA457B57CD427A89D85"
                BlueprintName = "RollbarReactNative"
                ReferencedContainer = "container:Pods.xcodeproj"
-               BuildableName = "libRollbarReactNative.a">
+               BuildableName = "RollbarReactNative.framework">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

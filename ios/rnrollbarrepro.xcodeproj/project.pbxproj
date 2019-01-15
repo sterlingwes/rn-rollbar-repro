@@ -7,17 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		186F59E099BCAA0E82D626D1 /* libPods-rnrollbarrepro.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 23624E3818C5FD01B2A6322B /* libPods-rnrollbarrepro.a */; };
 		9318C4EF21E9451500023193 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9318C4EE21E9451500023193 /* AppDelegate.m */; };
 		9318C4F221E9451500023193 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9318C4F121E9451500023193 /* ViewController.m */; };
 		9318C4F521E9451500023193 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9318C4F321E9451500023193 /* Main.storyboard */; };
 		9318C4F721E9451600023193 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9318C4F621E9451600023193 /* Assets.xcassets */; };
 		9318C4FA21E9451600023193 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9318C4F821E9451600023193 /* LaunchScreen.storyboard */; };
 		9318C4FD21E9451600023193 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9318C4FC21E9451600023193 /* main.m */; };
+		93AC790921EE9243003CA0C4 /* RollbarInitializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93AC790821EE9243003CA0C4 /* RollbarInitializer.swift */; };
+		F3EE1BBAB0EF07463181DC67 /* Pods_rnrollbarrepro.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDCC02BAB4B1E528348B39C2 /* Pods_rnrollbarrepro.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		23624E3818C5FD01B2A6322B /* libPods-rnrollbarrepro.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-rnrollbarrepro.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9318C4EA21E9451400023193 /* rnrollbarrepro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = rnrollbarrepro.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9318C4ED21E9451500023193 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9318C4EE21E9451500023193 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -28,8 +28,11 @@
 		9318C4F921E9451600023193 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9318C4FB21E9451600023193 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9318C4FC21E9451600023193 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		93AC790721EE9243003CA0C4 /* rnrollbarrepro-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "rnrollbarrepro-Bridging-Header.h"; sourceTree = "<group>"; };
+		93AC790821EE9243003CA0C4 /* RollbarInitializer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RollbarInitializer.swift; sourceTree = "<group>"; };
 		9DFA8D7E34241A0F831ECB51 /* Pods-rnrollbarrepro.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rnrollbarrepro.release.xcconfig"; path = "Pods/Target Support Files/Pods-rnrollbarrepro/Pods-rnrollbarrepro.release.xcconfig"; sourceTree = "<group>"; };
 		A84EDCBEA3565A9D90BCBEA2 /* Pods-rnrollbarrepro.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rnrollbarrepro.debug.xcconfig"; path = "Pods/Target Support Files/Pods-rnrollbarrepro/Pods-rnrollbarrepro.debug.xcconfig"; sourceTree = "<group>"; };
+		CDCC02BAB4B1E528348B39C2 /* Pods_rnrollbarrepro.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_rnrollbarrepro.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,7 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				186F59E099BCAA0E82D626D1 /* libPods-rnrollbarrepro.a in Frameworks */,
+				F3EE1BBAB0EF07463181DC67 /* Pods_rnrollbarrepro.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -47,7 +50,7 @@
 		1C8CC274FE8C02A2F813FCA9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				23624E3818C5FD01B2A6322B /* libPods-rnrollbarrepro.a */,
+				CDCC02BAB4B1E528348B39C2 /* Pods_rnrollbarrepro.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -82,6 +85,8 @@
 				9318C4F821E9451600023193 /* LaunchScreen.storyboard */,
 				9318C4FB21E9451600023193 /* Info.plist */,
 				9318C4FC21E9451600023193 /* main.m */,
+				93AC790821EE9243003CA0C4 /* RollbarInitializer.swift */,
+				93AC790721EE9243003CA0C4 /* rnrollbarrepro-Bridging-Header.h */,
 			);
 			path = rnrollbarrepro;
 			sourceTree = "<group>";
@@ -106,6 +111,7 @@
 				9318C4E621E9451400023193 /* Sources */,
 				9318C4E721E9451400023193 /* Frameworks */,
 				9318C4E821E9451400023193 /* Resources */,
+				FDDE3B489E3849D381A4E95A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,6 +133,7 @@
 				TargetAttributes = {
 					9318C4E921E9451400023193 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 					};
 				};
 			};
@@ -184,6 +191,40 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		FDDE3B489E3849D381A4E95A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-rnrollbarrepro/Pods-rnrollbarrepro-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/DoubleConversion/DoubleConversion.framework",
+				"${BUILT_PRODUCTS_DIR}/Folly/folly.framework",
+				"${BUILT_PRODUCTS_DIR}/React/React.framework",
+				"${BUILT_PRODUCTS_DIR}/Rollbar/Rollbar.framework",
+				"${BUILT_PRODUCTS_DIR}/RollbarReactNative/RollbarReactNative.framework",
+				"${BUILT_PRODUCTS_DIR}/glog/glog.framework",
+				"${BUILT_PRODUCTS_DIR}/yoga/yoga.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DoubleConversion.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/folly.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/React.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Rollbar.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RollbarReactNative.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/glog.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/yoga.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-rnrollbarrepro/Pods-rnrollbarrepro-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -192,6 +233,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9318C4F221E9451500023193 /* ViewController.m in Sources */,
+				93AC790921EE9243003CA0C4 /* RollbarInitializer.swift in Sources */,
 				9318C4FD21E9451600023193 /* main.m in Sources */,
 				9318C4EF21E9451500023193 /* AppDelegate.m in Sources */,
 			);
@@ -336,6 +378,7 @@
 			baseConfigurationReference = A84EDCBEA3565A9D90BCBEA2 /* Pods-rnrollbarrepro.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 722K7EJEK5;
 				INFOPLIST_FILE = rnrollbarrepro/Info.plist;
@@ -345,6 +388,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.wealthsimple.rnrollbarrepro;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "rnrollbarrepro/rnrollbarrepro-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -354,6 +400,7 @@
 			baseConfigurationReference = 9DFA8D7E34241A0F831ECB51 /* Pods-rnrollbarrepro.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 722K7EJEK5;
 				INFOPLIST_FILE = rnrollbarrepro/Info.plist;
@@ -363,6 +410,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.wealthsimple.rnrollbarrepro;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "rnrollbarrepro/rnrollbarrepro-Bridging-Header.h";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
