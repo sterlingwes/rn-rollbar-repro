@@ -1,9 +1,11 @@
-import { Platform, NativeModules } from 'react-native';
+import { NativeModules } from 'react-native';
 import { Client, Configuration } from 'rollbar-react-native';
 
-const { ROLLBAR_CLIENT_TOKEN } = NativeModules.Environment || {};
+const { ROLLBAR_CLIENT_TOKEN, BUILD_VERSION } = NativeModules.Environment || {};
 
- const config = new Configuration(ROLLBAR_CLIENT_TOKEN, {
+console.log(NativeModules.Environment);
+
+const config = new Configuration(ROLLBAR_CLIENT_TOKEN, {
   endpoint: 'https://api.rollbar.com/api/1/item/',
   logLevel: 'info',
   environment: "test",
@@ -11,7 +13,7 @@ const { ROLLBAR_CLIENT_TOKEN } = NativeModules.Environment || {};
     client: {
       javascript: {
         source_map_enabled: true,
-        code_version: "1",
+        code_version: BUILD_VERSION,
       },
     },
   },

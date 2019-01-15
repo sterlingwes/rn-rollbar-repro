@@ -21,4 +21,9 @@ class EnvironmentModule: NSObject, ReactModule, RCTBridgeModule {
             "ROLLBAR_CLIENT_TOKEN": RollbarInitializer.clientToken(),
         ]
     }
+    
+    @objc(crash)
+    func crash() {
+        fatalError()
+    }
 }
