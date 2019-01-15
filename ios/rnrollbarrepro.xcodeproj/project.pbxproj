@@ -14,6 +14,10 @@
 		9318C4FA21E9451600023193 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9318C4F821E9451600023193 /* LaunchScreen.storyboard */; };
 		9318C4FD21E9451600023193 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9318C4FC21E9451600023193 /* main.m */; };
 		93AC790921EE9243003CA0C4 /* RollbarInitializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93AC790821EE9243003CA0C4 /* RollbarInitializer.swift */; };
+		93B9589121EE96CC0074901A /* Initializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 93B9589021EE96CC0074901A /* Initializer.m */; };
+		93B9589321EE9D610074901A /* EnvironmentModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B9589221EE9D610074901A /* EnvironmentModule.swift */; };
+		93B9589521EE9EE80074901A /* ReactModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B9589421EE9EE80074901A /* ReactModule.swift */; };
+		93B9589721EE9F090074901A /* EnvironmentModuleBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 93B9589621EE9F090074901A /* EnvironmentModuleBridge.m */; };
 		F3EE1BBAB0EF07463181DC67 /* Pods_rnrollbarrepro.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDCC02BAB4B1E528348B39C2 /* Pods_rnrollbarrepro.framework */; };
 /* End PBXBuildFile section */
 
@@ -30,6 +34,11 @@
 		9318C4FC21E9451600023193 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		93AC790721EE9243003CA0C4 /* rnrollbarrepro-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "rnrollbarrepro-Bridging-Header.h"; sourceTree = "<group>"; };
 		93AC790821EE9243003CA0C4 /* RollbarInitializer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RollbarInitializer.swift; sourceTree = "<group>"; };
+		93B9588F21EE96760074901A /* Initializer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Initializer.h; sourceTree = "<group>"; };
+		93B9589021EE96CC0074901A /* Initializer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Initializer.m; sourceTree = "<group>"; };
+		93B9589221EE9D610074901A /* EnvironmentModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentModule.swift; sourceTree = "<group>"; };
+		93B9589421EE9EE80074901A /* ReactModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReactModule.swift; sourceTree = "<group>"; };
+		93B9589621EE9F090074901A /* EnvironmentModuleBridge.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EnvironmentModuleBridge.m; sourceTree = "<group>"; };
 		9DFA8D7E34241A0F831ECB51 /* Pods-rnrollbarrepro.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rnrollbarrepro.release.xcconfig"; path = "Pods/Target Support Files/Pods-rnrollbarrepro/Pods-rnrollbarrepro.release.xcconfig"; sourceTree = "<group>"; };
 		A84EDCBEA3565A9D90BCBEA2 /* Pods-rnrollbarrepro.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rnrollbarrepro.debug.xcconfig"; path = "Pods/Target Support Files/Pods-rnrollbarrepro/Pods-rnrollbarrepro.debug.xcconfig"; sourceTree = "<group>"; };
 		CDCC02BAB4B1E528348B39C2 /* Pods_rnrollbarrepro.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_rnrollbarrepro.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -87,6 +96,11 @@
 				9318C4FC21E9451600023193 /* main.m */,
 				93AC790821EE9243003CA0C4 /* RollbarInitializer.swift */,
 				93AC790721EE9243003CA0C4 /* rnrollbarrepro-Bridging-Header.h */,
+				93B9588F21EE96760074901A /* Initializer.h */,
+				93B9589021EE96CC0074901A /* Initializer.m */,
+				93B9589221EE9D610074901A /* EnvironmentModule.swift */,
+				93B9589421EE9EE80074901A /* ReactModule.swift */,
+				93B9589621EE9F090074901A /* EnvironmentModuleBridge.m */,
 			);
 			path = rnrollbarrepro;
 			sourceTree = "<group>";
@@ -232,7 +246,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93B9589521EE9EE80074901A /* ReactModule.swift in Sources */,
+				93B9589121EE96CC0074901A /* Initializer.m in Sources */,
+				93B9589321EE9D610074901A /* EnvironmentModule.swift in Sources */,
 				9318C4F221E9451500023193 /* ViewController.m in Sources */,
+				93B9589721EE9F090074901A /* EnvironmentModuleBridge.m in Sources */,
 				93AC790921EE9243003CA0C4 /* RollbarInitializer.swift in Sources */,
 				9318C4FD21E9451600023193 /* main.m in Sources */,
 				9318C4EF21E9451500023193 /* AppDelegate.m in Sources */,

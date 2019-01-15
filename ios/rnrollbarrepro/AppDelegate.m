@@ -1,14 +1,10 @@
-//
-//  AppDelegate.m
-//  rnrollbarrepro
-//
-//  Created by Wes Johnson on 2019-01-11.
-//  Copyright © 2019 Wealthsimple. All rights reserved.
-//
-
 #import "AppDelegate.h"
+#import "Initializer.h"
+#import "rnrollbarrepro-Swift.h"
 
 @interface AppDelegate ()
+
+@property (nonatomic, strong) NSArray *initializers;
 
 @end
 
@@ -16,7 +12,7 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    [self setupInitializersDidFinishLaunching];
     return YES;
 }
 
@@ -47,5 +43,21 @@
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
 
+- (void)setupInitializersDidFinishLaunching {
+    [self.initializers enumerateObjectsUsingBlock:^(Initializer *initializer, NSUInteger idx, BOOL *stop) {
+        [initializer performWithConfiguration:[InitializerConfiguration defaultConfiguration]];
+    }];
+}
+
+- (NSArray *)initializers;
+{
+    if (!_initializers) {
+        _initializers = @[
+                          [[RollbarInitializer alloc] init],
+          ];
+    }
+    
+    return _initializers;
+}
 
 @end

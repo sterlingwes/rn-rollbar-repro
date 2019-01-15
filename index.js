@@ -1,6 +1,8 @@
 import React from 'react';
 import {AppRegistry, StyleSheet, Text, View} from 'react-native';
 
+require('./rollbar');
+
 class App extends React.Component {
   render() {
     return (
