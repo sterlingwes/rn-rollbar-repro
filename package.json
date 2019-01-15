@@ -1,0 +1,15 @@
+{
+  "name": "rn-rollbar-repro",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Wes Johnson <wjohnson@wealthsimple.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start"
+  },
+  "dependencies": {
+    "react": "^16.7.0",
+    "react-native": "^0.57.8"
+  }
+}
