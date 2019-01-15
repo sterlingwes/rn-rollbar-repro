@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "87F8403230860BA6FBD954FCE0FA9B96"
+               BlueprintIdentifier = "906781CEF5D2ED09F9F5F6DDB911E065"
                BlueprintName = "Pods-rnrollbarrepro"
                ReferencedContainer = "container:Pods.xcodeproj"
                BuildableName = "libPods-rnrollbarrepro.a">
