@@ -7,15 +7,22 @@ class App extends React.Component {
   render() {
     return (
       <View style={styles.container}>
-        <Text style={styles.title}>Hello!</Text>
-        <Button onPress={this.onClickCrash}>
+        <Text style={styles.title}>How would you like to crash today?</Text>
+        <Button onPress={this.onClickJsCrash}>
+          JS crash!
+        </Button>
+        <Button onPress={this.onClickNativeCrash}>
           Native crash!
         </Button>
       </View>
     );
   }
 
-  onClickCrash() {
+  onClickJsCrash() {
+    throw new Error('oh no javascript')
+  }
+
+  onClickNativeCrash() {
     NativeModules.Environment.crash();
   }
 }
@@ -23,7 +30,9 @@ class App extends React.Component {
 const Button = (props) => (
   <TouchableOpacity onPress={props.onPress}>
     <View style={styles.button}>
-      <Text>{props.children}</Text>
+      <Text style={styles.buttonText}>
+        {props.children}
+      </Text>
     </View>
   </TouchableOpacity>
 );
@@ -40,6 +49,15 @@ const styles = StyleSheet.create({
     textAlign: 'center',
     margin: 10,
   },
+  button: {
+    margin: 10,
+    padding: 10,
+    backgroundColor: 'teal',
+    borderRadius: 10
+  },
+  buttonText: {
+    color: 'white'
+  }
 });
 
 AppRegistry.registerComponent('App', () => App);
