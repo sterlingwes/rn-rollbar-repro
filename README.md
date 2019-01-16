@@ -8,7 +8,7 @@ iOS dependencies are committed, should only need to `yarn install` or `npm insta
 
 ## Reproduction
 
-* build & run the app on a device
+* build & run the app with Xcode on a device with the `rnrollbarrepro-release` scheme
 * trigger a native crash with the available button
 * [view item list for project in rollbar](https://rollbar.com/swj/rn-reproduction/items/)
 
