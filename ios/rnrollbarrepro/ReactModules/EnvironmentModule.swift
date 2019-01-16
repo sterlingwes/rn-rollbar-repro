@@ -24,6 +24,6 @@ class EnvironmentModule: NSObject, ReactModule, RCTBridgeModule {
     
     @objc(crash)
     func crash() {
-        fatalError()
+        [][1]
     }
 }

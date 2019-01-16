@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0930"
+   LastUpgradeVersion = "1010"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "18BB6B7598C2571ABD02DD1960370406"
-               BuildableName = "Pods_rnrollbarrepro.framework"
-               BlueprintName = "Pods-rnrollbarrepro"
-               ReferencedContainer = "container:Pods.xcodeproj">
+               BlueprintIdentifier = "9318C4E921E9451400023193"
+               BuildableName = "rnrollbarrepro.app"
+               BlueprintName = "rnrollbarrepro"
+               ReferencedContainer = "container:rnrollbarrepro.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -29,11 +29,20 @@
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "9318C4E921E9451400023193"
+            BuildableName = "rnrollbarrepro.app"
+            BlueprintName = "rnrollbarrepro"
+            ReferencedContainer = "container:rnrollbarrepro.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
    <LaunchAction
-      buildConfiguration = "Debug"
+      buildConfiguration = "Release"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       launchStyle = "0"
@@ -42,15 +51,23 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <MacroExpansion>
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "18BB6B7598C2571ABD02DD1960370406"
-            BuildableName = "Pods_rnrollbarrepro.framework"
-            BlueprintName = "Pods-rnrollbarrepro"
-            ReferencedContainer = "container:Pods.xcodeproj">
+            BlueprintIdentifier = "9318C4E921E9451400023193"
+            BuildableName = "rnrollbarrepro.app"
+            BlueprintName = "rnrollbarrepro"
+            ReferencedContainer = "container:rnrollbarrepro.xcodeproj">
          </BuildableReference>
-      </MacroExpansion>
+      </BuildableProductRunnable>
+      <EnvironmentVariables>
+         <EnvironmentVariable
+            key = "ROLLBAR_REPRO_SERVER_TOKEN"
+            value = "19e8242241e149fa9fcbf3ce1909c8e0"
+            isEnabled = "YES">
+         </EnvironmentVariable>
+      </EnvironmentVariables>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -60,6 +77,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "9318C4E921E9451400023193"
+            BuildableName = "rnrollbarrepro.app"
+            BlueprintName = "rnrollbarrepro"
+            ReferencedContainer = "container:rnrollbarrepro.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
