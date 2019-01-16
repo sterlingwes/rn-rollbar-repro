@@ -4,6 +4,8 @@
 
 iOS dependencies are committed, should only need to `yarn install` or `npm install`
 
+(caveat that locally I had to change line 17 in `./node_modules/rollbar-react-native/RollbarReactNative.podspec` to `s.dependency 'Rollbar', '~> 1.5.0'` pending rollbar-rn release to fix a separate issue)
+
 ## Reproduction
 
 * build & run the app on a device
