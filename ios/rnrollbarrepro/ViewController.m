@@ -13,7 +13,7 @@
 }
 
 - (UIView *)createReactView {
-    NSURL *bundleUrl = [NSURL URLWithString:@"http://localhost:8081/index.bundle?platform=ios"];
+    NSURL *bundleUrl = [self bundleUrl];
     RCTRootView *rootView = [[RCTRootView alloc] initWithBundleURL: bundleUrl
                                                           moduleName: @"App"
                                                    initialProperties: @{}
@@ -22,5 +22,12 @@
     return rootView;
 }
 
+- (NSURL *)bundleUrl {
+#if TARGET_IPHONE_SIMULATOR
+    return [NSURL URLWithString:@"http://localhost:8081/index.bundle?platform=ios"];
+#endif
+
+    return [[NSBundle mainBundle] URLForResource:@"main" withExtension:@"jsbundle"];
+}
 
 @end
