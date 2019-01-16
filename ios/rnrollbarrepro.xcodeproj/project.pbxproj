@@ -87,22 +87,46 @@
 			children = (
 				9318C4ED21E9451500023193 /* AppDelegate.h */,
 				9318C4EE21E9451500023193 /* AppDelegate.m */,
-				9318C4F021E9451500023193 /* ViewController.h */,
-				9318C4F121E9451500023193 /* ViewController.m */,
-				9318C4F321E9451500023193 /* Main.storyboard */,
 				9318C4F621E9451600023193 /* Assets.xcassets */,
-				9318C4F821E9451600023193 /* LaunchScreen.storyboard */,
 				9318C4FB21E9451600023193 /* Info.plist */,
+				93B9589C21EECE2C0074901A /* Initializers */,
+				9318C4F821E9451600023193 /* LaunchScreen.storyboard */,
 				9318C4FC21E9451600023193 /* main.m */,
-				93AC790821EE9243003CA0C4 /* RollbarInitializer.swift */,
+				9318C4F321E9451500023193 /* Main.storyboard */,
+				93B9589A21EECDE60074901A /* ReactModules */,
 				93AC790721EE9243003CA0C4 /* rnrollbarrepro-Bridging-Header.h */,
-				93B9588F21EE96760074901A /* Initializer.h */,
-				93B9589021EE96CC0074901A /* Initializer.m */,
-				93B9589221EE9D610074901A /* EnvironmentModule.swift */,
-				93B9589421EE9EE80074901A /* ReactModule.swift */,
-				93B9589621EE9F090074901A /* EnvironmentModuleBridge.m */,
+				93B9589D21EECE4E0074901A /* Views */,
 			);
 			path = rnrollbarrepro;
+			sourceTree = "<group>";
+		};
+		93B9589A21EECDE60074901A /* ReactModules */ = {
+			isa = PBXGroup;
+			children = (
+				93B9589221EE9D610074901A /* EnvironmentModule.swift */,
+				93B9589621EE9F090074901A /* EnvironmentModuleBridge.m */,
+				93B9589421EE9EE80074901A /* ReactModule.swift */,
+			);
+			path = ReactModules;
+			sourceTree = "<group>";
+		};
+		93B9589C21EECE2C0074901A /* Initializers */ = {
+			isa = PBXGroup;
+			children = (
+				93B9588F21EE96760074901A /* Initializer.h */,
+				93B9589021EE96CC0074901A /* Initializer.m */,
+				93AC790821EE9243003CA0C4 /* RollbarInitializer.swift */,
+			);
+			path = Initializers;
+			sourceTree = "<group>";
+		};
+		93B9589D21EECE4E0074901A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9318C4F121E9451500023193 /* ViewController.m */,
+				9318C4F021E9451500023193 /* ViewController.h */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 		B0461EE1DE102908688EE2F8 /* Pods */ = {
